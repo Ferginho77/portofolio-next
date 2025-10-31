@@ -10,7 +10,7 @@ import ProjectSection from "../components/ProjectSection";
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-blue-50 to-purple-100 py-10 px-4">
-      <div className="bg-white rounded-3xl shadow-xl p-8 max-w-lg w-full flex flex-col items-center">
+      <div className="bg-white rounded-3xl shadow-xl p-8 max-w-2xl w-full flex flex-col items-center">
         <div className="mb-6">
         </div>
         <h1 className="text-3xl font-extrabold text-gray-800 mb-2 text-center">Hi 👋, My Name Is <span className="text-blue-600">Fergie Fakhirusalam</span></h1>
@@ -26,7 +26,7 @@ export default function Home() {
           <a href="#about" className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600 transition">About Me</a>
           <a href="#education" className="px-4 py-2 bg-purple-500 text-white rounded-lg shadow hover:bg-purple-600 transition">Education</a>
           <a href="#sertifikat" className="px-4 py-2 bg-indigo-500 text-white rounded-lg shadow hover:bg-indigo-600 transition">Certificates</a>
-          <a href="#sertifikat" className="px-4 py-2 bg-cyan-500 text-white rounded-lg shadow hover:bg-cyan-600 transition">Tools</a>
+          <a href="#project" className="px-4 py-2 bg-cyan-500 text-white rounded-lg shadow hover:bg-cyan-600 transition">Project</a>
         </div>
       </div>
       <div id="about" className="mt-10">
