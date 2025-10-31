@@ -6,7 +6,7 @@ export default function EducationSection() {
             <h1 className="text-3xl font-extrabold text-gray-800 mb-4 text-center">Education</h1>
             <div className="bg-gradient-to-tr from-blue-500 to-orange-500 rounded-2xl shadow-lg p-6 flex flex-col items-center mb-6 w-full">
                 <h2 className="text-2xl font-bold text-white-700 mb-2">University Logistic and International Business (ULBI)</h2>
-                <span className="text-md text-white-600">Informatics Engineering Student</span>
+                <span className="text-md text-white-600">Informatics Engineering</span>
                 <span className="text-sm text-white-500 mt-1">2025 - Present</span>
             </div>
             <div className="bg-gradient-to-tr from-red-300 to-blue-200 rounded-2xl shadow-lg p-6 flex flex-col items-center mb-6 w-full">

@@ -15,11 +15,11 @@ export default function Home() {
         </div>
         <h1 className="text-3xl font-extrabold text-gray-800 mb-2 text-center">Hi 👋, My Name Is <span className="text-blue-600">Fergie Fakhirusalam</span></h1>
         <h3 className="text-xl font-semibold text-gray-600 mb-4 text-center">
-          I'm a Student at University Logistic and International Business (ULBI), majoring in Informatics Engineering.
+          I am a Student at University Logistic and International Business (ULBI), majoring in Informatics Engineering.
         </h3>
         <div className="bg-blue-50 rounded-xl p-4 w-full mb-4">
           <p className="text-lg text-gray-700 text-center">
-            I'm currently learning <span className="font-bold text-blue-500">Web Development</span>, And <span className="font-bold text-green-500">Mobile Development</span> Using Tools : <br></br> <span className="font-bold text-red-500">Laravel</span>, and <span className="font-bold text-black-300">Next.js</span>.
+            I am currently learning <span className="font-bold text-blue-500">Web Development</span>, And <span className="font-bold text-green-500">Mobile Development</span> Using Tools : <br></br> <span className="font-bold text-red-500">Laravel</span>, and <span className="font-bold text-black-300">Next.js</span>.
           </p>
         </div>
         <div className="flex gap-4 mt-2">
