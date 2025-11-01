@@ -24,7 +24,7 @@ export default function AboutSection() {
             </p>
             <ul className="list-disc list-inside text-gray-700 mb-4">
                 <li><i className="fa-solid fa-gear"></i> Currently learning: <span className="font-semibold text-yellow-500">Next.js</span>, <span className="font-semibold text-red-500">Laravel</span>, and <span className="font-semibold text-indigo-500">Back End Technology</span></li>
-                <li><i className="fa-solid fa-code"></i> Interests: Web Development, Cloud Computing, AI Engineer</li>
+                <li><i className="fa-solid fa-code"></i> Interests: Web Development, Cloud Computing, Back End Development</li>
                 <li><i className="fa-solid fa-handshake"></i> Open to: Collaboration, Internships, and Networking</li>
             </ul>
         </div>
