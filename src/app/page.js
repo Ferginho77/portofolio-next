@@ -4,6 +4,7 @@ import EducationSection from "../components/EducationSection";
 import AboutSection from "../components/AboutSection";
 import SertiSection from "../components/SertiSection";
 import ProjectSection from "../components/ProjectSection";
+import ContactSection from "../components/ContactSection";
 
 
 
@@ -40,6 +41,9 @@ export default function Home() {
       </div>
       <div id="project" className="mt-10 w-full">
         <ProjectSection />
+      </div>
+      <div id="contact" className="mt-10 w-full">
+        <ContactSection />
       </div>
     </div>
   );
