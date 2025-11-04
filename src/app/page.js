@@ -28,6 +28,7 @@ export default function Home() {
           <a href="#education" className="px-4 py-2 bg-purple-500 text-white rounded-lg shadow hover:bg-purple-600 transition">Education</a>
           <a href="#sertifikat" className="px-4 py-2 bg-indigo-500 text-white rounded-lg shadow hover:bg-indigo-600 transition">Certificates</a>
           <a href="#project" className="px-4 py-2 bg-cyan-500 text-white rounded-lg shadow hover:bg-cyan-600 transition">Project</a>
+          <a href="#contact" className="px-4 py-2 bg-purple-500 text-white rounded-lg shadow hover:bg-cyan-600 transition">Contact</a>
         </div>
       </div>
       <div id="about" className="mt-10">
