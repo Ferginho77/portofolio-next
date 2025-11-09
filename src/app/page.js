@@ -23,12 +23,12 @@ export default function Home() {
             I am currently learning <span className="font-bold text-blue-500">Web Development</span>, And <span className="font-bold text-green-500">Mobile Development</span> Using Tools : <br></br> <span className="font-bold text-red-500">Laravel</span>, and <span className="font-bold text-black-300">Next.js</span>.
           </p>
         </div>
-        <div className="flex gap-4 mt-2">
-          <a href="#about" className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600 transition">About Me</a>
-          <a href="#education" className="px-4 py-2 bg-purple-500 text-white rounded-lg shadow hover:bg-purple-600 transition">Education</a>
-          <a href="#sertifikat" className="px-4 py-2 bg-indigo-500 text-white rounded-lg shadow hover:bg-indigo-600 transition">Certificates</a>
-          <a href="#project" className="px-4 py-2 bg-cyan-500 text-white rounded-lg shadow hover:bg-cyan-600 transition">Project</a>
-          <a href="#contact" className="px-4 py-2 bg-purple-500 text-white rounded-lg shadow hover:bg-cyan-600 transition">Contact</a>
+        <div className="flex flex-wrap gap-2 sm:gap-4 mt-2 justify-center w-full">
+          <a href="#about" className="px-3 py-2 sm:px-4 sm:py-2 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600 transition text-sm sm:text-base">About Me</a>
+          <a href="#education" className="px-3 py-2 sm:px-4 sm:py-2 bg-purple-500 text-white rounded-lg shadow hover:bg-purple-600 transition text-sm sm:text-base">Education</a>
+          <a href="#sertifikat" className="px-3 py-2 sm:px-4 sm:py-2 bg-indigo-500 text-white rounded-lg shadow hover:bg-indigo-600 transition text-sm sm:text-base">Certificates</a>
+          <a href="#project" className="px-3 py-2 sm:px-4 sm:py-2 bg-cyan-500 text-white rounded-lg shadow hover:bg-cyan-600 transition text-sm sm:text-base">Project</a>
+          <a href="#contact" className="px-3 py-2 sm:px-4 sm:py-2 bg-purple-500 text-white rounded-lg shadow hover:bg-cyan-600 transition text-sm sm:text-base">Contact</a>
         </div>
       </div>
       <div id="about" className="mt-10">
