@@ -18,7 +18,7 @@ export default function ProjectSection() {
                             priority
                         />
                         <h2 className="font-bold text-blue-700 text-lg sm:text-xl mb-1 sm:mb-2">PDAM Dashboard</h2>
-                        <p className="text-xs sm:text-base text-gray-700 text-center">office car rental website at PDAM Tirta Raharja company, with Laravel 11 technology</p>
+                        <p className="text-xs sm:text-base text-gray-700 text-center">Office car rental website at PDAM Tirta Raharja company, with Laravel 11 technology</p>
                     </div>
                     {/* Project 2 */}
                     <div className="bg-gradient-to-tr from-blue-100 to-purple-200 rounded-2xl shadow-lg p-4 sm:p-6 flex flex-col items-center min-w-[260px] sm:min-w-[340px] max-w-xs sm:max-w-sm h-[340px] sm:h-[400px] justify-center">

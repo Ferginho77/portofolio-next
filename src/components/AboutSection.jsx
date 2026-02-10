@@ -17,14 +17,14 @@ export default function AboutSection() {
                 <span className="text-md text-gray-600">Informatics Engineering Student</span>
             </div>
             <p className="text-lg text-gray-700 mb-4 text-center">
-                Hello! My name is <span className="font-bold text-blue-600">Fergie Fakhirusalam</span>. I am passionate about technology...
+                Hello! My name is <span className="font-bold text-blue-600">Fergie Fakhirusalam</span>. I am enthusiasts about technology...
             </p>
             <p className="text-lg text-gray-700 mb-4 text-center">
                 I love learning new things, collaborating on projects, and building solutions...
             </p>
             <ul className="list-disc list-inside text-gray-700 mb-4">
-                <li><i className="fa-solid fa-gear"></i> Currently learning: <span className="font-semibold text-yellow-500">Next.js</span>, <span className="font-semibold text-red-500">Laravel</span>, and <span className="font-semibold text-indigo-500">Back End Technology</span></li>
-                <li><i className="fa-solid fa-code"></i> Interests: Web Development, Cloud Computing, Back End Development</li>
+                <li><i className="fa-solid fa-gear"></i> Currently learning: <span className="font-semibold text-blue-400">Golang</span>, <span className="font-semibold text-red-500">Laravel</span>, and <span className="font-semibold text-indigo-500">Back End Technology</span></li>
+                <li><i className="fa-solid fa-code"></i> Interests: Web Development, Machine Learning, Back End Development</li>
                 <li><i className="fa-solid fa-handshake"></i> Open to: Collaboration, Internships, and Networking</li>
             </ul>
         </div>

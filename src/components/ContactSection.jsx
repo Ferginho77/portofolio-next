@@ -26,7 +26,7 @@ export default function ContactPage() {
 
   return (
 <div className="bg-white rounded-3xl shadow-xl p-8 max-w-2xl w-full flex flex-col items-center">
-    <div className="max-w-md mx-auto mt-10 p-6 rounded-2xl border-4 border-blue-300 shadow-md object-cover bg-white mb-2 sm:mb-4">
+    <div className="max-w-md mx-auto mt-10 p-6 rounded-2xl border-4 border-black-300 shadow-md object-cover bg-white mb-2 sm:mb-4">
        <h1 className="text-3xl font-extrabold text-gray-800 mb-4 text-center">Contact Me</h1>
       <form onSubmit={handleSubmit}>
         <i className="far fa-user font-bold text-gray-800"></i> <label className="font-bold text-gray-800 text-lg sm:text-xl mb-1 sm:mb-2" htmlFor="">Name</label>
@@ -36,7 +36,7 @@ export default function ContactPage() {
           onChange={handleChange}
           placeholder="Nama"
           required
-          className="text-gray-800 w-full p-2 mb-3 border-4 border-blue-300 rounded-lg"
+          className="text-gray-800 w-full p-2 mb-3 border-4 border-black-300 rounded-lg"
         />
         <i className="fas fa-envelope font-bold text-gray-800"></i> <label className="font-bold text-gray-800 text-lg sm:text-xl mb-1 sm:mb-2"  htmlFor="">Email</label>
         <input
@@ -46,7 +46,7 @@ export default function ContactPage() {
           type="email"
           placeholder="Email"
           required
-          className="text-gray-800 w-full p-2 mb-3 border-4 border-blue-300 rounded-lg"
+          className="text-gray-800 w-full p-2 mb-3 border-4 border-black-300 rounded-lg"
         />
         <i className="fas fa-comments font-bold text-gray-800"></i> <label className="font-bold text-gray-800 text-lg sm:text-xl mb-1 sm:mb-2"  htmlFor="">Message</label>
         <input
@@ -55,7 +55,7 @@ export default function ContactPage() {
           onChange={handleChange}
           placeholder="Your Message..."
           required
-          className="text-gray-800 w-full p-2 mb-3 border-4 border-blue-300 rounded-lg"
+          className="text-gray-800 w-full p-2 mb-3 border-4 border-black-300 rounded-lg"
         ></input>
         <button
           type="submit"
