@@ -1,5 +1,43 @@
 import Image from "next/image";
 
+const Serti = [
+  {
+    image: "/serti1.jpg",
+    alt: "Fergie Fakhirusalam"
+  },
+  {
+     image: "/serti2.jpg",
+      alt: "Fergie Fakhirusalam"
+    
+  },
+  {
+     image: "/serti3.jpg",
+      alt: "Fergie Fakhirusalam"
+  },
+  {
+     image: "/serti4.jpg",
+      alt: "Fergie Fakhirusalam"
+  },
+  {
+     image: "/serti5.jpg",
+    alt: "Fergie Fakhirusalam"
+  },
+  {
+     image: "/serti6.PNG",
+    alt: "Fergie Fakhirusalam"
+  },
+  {
+    image: "/softwaretest.jpeg",
+    alt: "Fergie Fakhirusalam"
+
+  },
+  {
+    image: "/mongodb.jpeg",
+    alt: "Fergie Fakhirusalam"
+  }
+
+]
+
 
 export default function SertiSection() {
     return (
@@ -9,54 +47,17 @@ export default function SertiSection() {
                 <div className="overflow-hidden w-full">
                   <div className="marquee">
                     <div className="marquee__track flex gap-8">
-                      <Image
-                        src="/serti1.jpg"
-                        alt="Fergie Fakhirusalam"
-                        width={200}
-                        height={200}
-                        className="rounded-2xl border-5 border-blue-300 shadow-md object-cover bg-white"
-                        priority
-                      />
-                      <Image
-                        src="/serti2.jpg"
-                        alt="Fergie Fakhirusalam"
-                        width={200}
-                        height={200}
-                        className="rounded-2xl border-5 border-blue-400 shadow-md object-cover bg-white"
-                        priority
-                      />
-                      <Image
-                        src="/serti3.jpg"
-                        alt="Fergie Fakhirusalam"
-                        width={200}
-                        height={200}
-                        className="rounded-2xl border-5 border-blue-400 shadow-md object-cover bg-white"
-                        priority
-                      />
-                      <Image
-                        src="/serti4.jpg"
-                        alt="Fergie Fakhirusalam"
-                        width={200}
-                        height={200}
-                        className="rounded-2xl border-5 border-blue-400 shadow-md object-cover bg-white"
-                        priority
-                      />
-                      <Image
-                        src="/serti5.jpg"
-                        alt="Fergie Fakhirusalam"
-                        width={200}
-                        height={200}
-                        className="rounded-2xl border-5 border-red-400 shadow-md object-cover bg-white"
-                        priority
-                      />
-                      <Image
-                        src="/serti6.PNG"
-                        alt="Fergie Fakhirusalam"
-                        width={200}
-                        height={200}
-                        className="rounded-2xl border-5 border-green-400 shadow-md object-cover bg-white"
-                        priority
-                      />
+                     {Serti.map((serti, index) => (
+                        <Image
+                          key={index}
+                          src={serti.image}
+                          alt={serti.alt}
+                          width={200}
+                          height={200}
+                          className="rounded-2xl border-5 border-blue-300 shadow-md object-cover bg-white"
+                          priority
+                        />
+                      ))}
                     </div>
                   </div>
                 </div>
