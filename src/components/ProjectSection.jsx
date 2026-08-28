@@ -80,10 +80,10 @@ export default function ProjectSection() {
                     </button>
                 ))}
             </div>
-            <div className="overflow-x-auto w-full">
-                <div className="flex flex-row gap-4 sm:gap-8 w-max">
+            <div className="w-full">
+                <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-8 w-full">
                     {filteredProjects.map((project) => (
-                        <div key={project.title} className="bg-gradient-to-tr from-blue-100 to-purple-200 rounded-2xl shadow-lg p-4 sm:p-6 flex flex-col items-center min-w-[260px] sm:min-w-[340px] max-w-xs sm:max-w-sm h-[340px] sm:h-[400px] justify-center">
+                        <div key={project.title} className="bg-gradient-to-tr from-blue-100 to-purple-200 rounded-2xl shadow-lg p-4 sm:p-6 flex flex-col items-center min-w-0 w-full h-[340px] sm:h-[400px] justify-center">
                             <Image
                                 src={project.image}
                                 alt={project.alt}
